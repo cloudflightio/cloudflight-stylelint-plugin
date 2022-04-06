@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@cloudflight/stylelint-plugin": [
+        "packages/stylelint-plugin/src/index.js"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

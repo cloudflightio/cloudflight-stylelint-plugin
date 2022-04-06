@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "stylelint-plugin": "packages/stylelint-plugin"
+  }
 }
