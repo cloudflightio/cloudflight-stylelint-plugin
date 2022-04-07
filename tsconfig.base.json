@@ -17,6 +17,9 @@
     "paths": {
       "@cloudflight/stylelint-plugin": [
         "packages/stylelint-plugin/src/index.js"
+      ],
+      "@cloudflight/stylelint-plugin-rules-angular": [
+        "packages/stylelint-plugin-rules-angular/src/index.ts"
       ]
     }
   },

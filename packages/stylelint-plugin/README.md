@@ -1,7 +1,16 @@
 # stylelint-plugin
 
-This library was generated with [Nx](https://nx.dev).
+## Setup
 
-## Running unit tests
+Put this in your `.stylelintrc.json` file:
+```json
+{
+  "extends": ["@cloudflight/stylelint-plugin"],
+  "rules": {
+  }
+}
+```
 
-Run `nx test stylelint-plugin` to execute the unit tests via [Jest](https://jestjs.io).
+## Usage
+
+Run `stylelint **/*.scss` for linting the whole project.
