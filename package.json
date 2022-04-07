@@ -1,7 +1,12 @@
 {
   "name": "cloudflight",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run-many --target=build --all --parallel",
+    "test": "nx run-many --target=test --all --parallel",
+    "lint": "nx run-many --target=lint --all --parallel",
+    "release": "pnpm -r publish"
+  },
   "private": true,
   "dependencies": {
     "postcss": "8.4.12",
