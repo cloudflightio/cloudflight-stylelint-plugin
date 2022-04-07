@@ -1,5 +1,5 @@
 {
-  "name": "cloudflight",
+  "name": "clf-internal",
   "version": "1.0.0",
   "scripts": {
     "build": "nx run-many --target=build --all --parallel",
