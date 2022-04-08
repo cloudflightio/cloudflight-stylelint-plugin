@@ -5,7 +5,7 @@
     "build": "nx run-many --target=build --all --parallel",
     "test": "nx run-many --target=test --all --parallel",
     "lint": "nx run-many --target=lint --all --parallel",
-    "release": "pnpm -r publish"
+    "release": "npm publish --workspaces"
   },
   "private": true,
   "dependencies": {
