@@ -4,6 +4,9 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "parserOptions": {
+        "project": ["packages/stylelint-plugin-rules-angular/tsconfig.*?.json"]
+      },
       "rules": {}
     },
     {

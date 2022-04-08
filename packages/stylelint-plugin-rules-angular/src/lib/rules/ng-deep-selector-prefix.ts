@@ -26,6 +26,6 @@ export const ngDeepSelectorPrefix = stylelint.createPlugin(
       });
     }
   }
-)
+);
 
 ngDeepSelectorPrefix.ruleName = ruleName;

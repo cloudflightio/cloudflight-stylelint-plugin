@@ -1,4 +1,9 @@
 {
   "name": "@clf-internal/stylelint-plugin-rules-angular",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "peerDependencies": {
+    "postcss": "8.4.12",
+    "postcss-scss": "4.0.3",
+    "stylelint": "14.6.1"
+  }
 }
