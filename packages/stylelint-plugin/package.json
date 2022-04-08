@@ -1,5 +1,5 @@
 {
-  "name": "@cloudflight/stylelint-plugin",
+  "name": "@clf-internal/stylelint-plugin",
   "version": "0.0.1",
   "dependencies": {
     "stylelint-config-prettier": "9.0.3",

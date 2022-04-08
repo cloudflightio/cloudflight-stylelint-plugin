@@ -1,6 +1,6 @@
 module.exports = {
   'plugins': ['.'],
   'rules': {
-    '@cloudflight-stylelint-angular/ng-deep-selector-prefix': true,
+    '@clf-internal-stylelint-angular/ng-deep-selector-prefix': true,
   }
 };

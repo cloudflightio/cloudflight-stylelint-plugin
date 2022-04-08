@@ -5,7 +5,7 @@
 Put this in your `.stylelintrc.json` file:
 ```json
 {
-  "extends": ["@cloudflight/stylelint-plugin"],
+  "extends": ["@clf-internal/stylelint-plugin"],
   "rules": {
   }
 }

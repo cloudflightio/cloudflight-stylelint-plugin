@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cloudflight/stylelint-plugin": [
+      "@clf-internal/stylelint-plugin": [
         "packages/stylelint-plugin/src/index.js"
       ],
-      "@cloudflight/stylelint-plugin-rules-angular": [
+      "@clf-internal/stylelint-plugin-rules-angular": [
         "packages/stylelint-plugin-rules-angular/src/index.ts"
       ]
     }

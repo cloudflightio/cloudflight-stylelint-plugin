@@ -1,6 +1,6 @@
 import * as stylelint from 'stylelint';
 
-const ruleName = '@cloudflight-stylelint-angular/ng-deep-selector-prefix';
+const ruleName = '@clf-internal-stylelint-angular/ng-deep-selector-prefix';
 
 export const ngDeepSelectorPrefix = stylelint.createPlugin(
   ruleName,

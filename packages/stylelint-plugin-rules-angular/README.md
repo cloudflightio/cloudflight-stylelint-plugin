@@ -5,8 +5,8 @@
 Put this in your `.stylelintrc.json` file:
 ```json
 {
-  "plugins": ["@cloudflight/stylelint-plugin-rules-angular"],
-  "extends": ["@cloudflight/stylelint-plugin-rules-angular/recommended"],
+  "plugins": ["@clf-internal/stylelint-plugin-rules-angular"],
+  "extends": ["@clf-internal/stylelint-plugin-rules-angular/recommended"],
   "rules": {
   }
 }
@@ -18,7 +18,7 @@ Run `stylelint **/*.scss` for linting the whole project.
 
 ## Rules
 
-### @cloudflight-stylelint-angular/ng-deep-selector-prefix
+### @clf-internal-stylelint-angular/ng-deep-selector-prefix
 
 Enforces `::ng-deep` to be prefixed by some other selectors first.
 
