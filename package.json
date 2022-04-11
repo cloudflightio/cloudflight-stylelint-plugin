@@ -8,6 +8,9 @@
     "release": "npm publish --workspaces"
   },
   "private": true,
+  "workspaces": [
+    "dist/packages/*"
+  ],
   "dependencies": {
     "postcss": "8.4.12",
     "postcss-scss": "4.0.3",
