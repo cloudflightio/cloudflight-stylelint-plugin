@@ -1,0 +1,33 @@
+{
+  "root": "packages/stylelint-plugin-angular",
+  "sourceRoot": "packages/stylelint-plugin-angular/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/stylelint-plugin-angular",
+        "main": "packages/stylelint-plugin-angular/src/index.ts",
+        "tsConfig": "packages/stylelint-plugin-angular/tsconfig.lib.json",
+        "assets": ["packages/stylelint-plugin-angular/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/stylelint-plugin-angular/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/stylelint-plugin-angular"],
+      "options": {
+        "jestConfig": "packages/stylelint-plugin-angular/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

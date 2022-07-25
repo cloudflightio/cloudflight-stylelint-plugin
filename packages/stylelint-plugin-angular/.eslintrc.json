@@ -5,7 +5,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "parserOptions": {
-        "project": ["packages/stylelint-plugin-rules-angular/tsconfig.*?.json"]
+        "project": ["packages/stylelint-plugin-angular/tsconfig.*?.json"]
       },
       "rules": {}
     },

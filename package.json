@@ -1,16 +1,30 @@
 {
-  "name": "clf-internal",
-  "version": "1.0.0",
+  "name": "cloudflight",
+  "version": "0.1.0",
   "scripts": {
     "build": "nx run-many --target=build --all --parallel",
     "test": "nx run-many --target=test --all --parallel",
     "lint": "nx run-many --target=lint --all --parallel",
+    "prepublishOnly": "node ./tools/scripts/prepare.js",
     "release": "npm publish --workspaces"
   },
   "private": true,
   "workspaces": [
     "dist/packages/*"
   ],
+  "author": "Cloudflight GmbH",
+  "license": "Apache-2.0",
+  "keywords": [
+    "stylelint",
+    "stylelintplugin"
+  ],
+  "homepage": "https://github.com/cloudflightio/cloudflight-stylelint-plugin",
+  "bugs": {
+    "url": "https://github.com/cloudflightio/cloudflight-stylelint-plugin/issues"
+  },
+  "volta": {
+    "node": "16.13.0"
+  },
   "dependencies": {
     "postcss": "8.4.12",
     "postcss-scss": "4.0.3",
@@ -22,7 +36,7 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@clf-internal/eslint-plugin-typescript": "1.0.0",
+    "@cloudflight/eslint-plugin-typescript": "0.1.0",
     "@nrwl/cli": "13.10.0",
     "@nrwl/eslint-plugin-nx": "13.10.0",
     "@nrwl/jest": "13.10.0",

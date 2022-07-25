@@ -1,11 +1,12 @@
-# stylelint-plugin
+# stylelint-plugin-angular
 
 ## Setup
 
 Put this in your `.stylelintrc.json` file:
 ```json
 {
-  "extends": ["@cloudflight/stylelint-plugin"],
+  "plugins": ["@cloudflight/stylelint-plugin-angular"],
+  "extends": ["@cloudflight/stylelint-plugin-angular/recommended"],
   "rules": {
   }
 }

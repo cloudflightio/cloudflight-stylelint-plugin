@@ -2,6 +2,6 @@
   "version": 2,
   "projects": {
     "stylelint-plugin": "packages/stylelint-plugin",
-    "stylelint-plugin-rules-angular": "packages/stylelint-plugin-rules-angular"
+    "stylelint-plugin-angular": "packages/stylelint-plugin-angular"
   }
 }

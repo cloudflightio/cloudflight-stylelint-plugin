@@ -1,4 +1,4 @@
-# @clf-internal-stylelint-angular/ng-deep-selector-prefix
+# @cloudflight-stylelint-angular/ng-deep-selector-prefix
 
 Enforces `::ng-deep` to be prefixed by some other selectors first.
 
