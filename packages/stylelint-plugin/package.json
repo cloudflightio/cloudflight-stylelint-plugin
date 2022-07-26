@@ -1,7 +1,22 @@
 {
   "name": "@cloudflight/stylelint-plugin",
   "version": "0.1.0",
+  "author": "Cloudflight GmbH",
   "license": "Apache-2.0",
+  "keywords": [
+    "stylelint",
+    "stylelintplugin"
+  ],
+  "homepage": "https://github.com/cloudflightio/cloudflight-stylelint-plugin",
+  "bugs": {
+    "url": "https://github.com/cloudflightio/cloudflight-stylelint-plugin/issues"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard-scss": "5.0.0",
