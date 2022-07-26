@@ -1,0 +1,22 @@
+name: publish-to-npm
+on:
+    release:
+        types: [created]
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            # Setup .npmrc file to publish to npm
+            - uses: actions/setup-node@v3
+              with:
+                  node-version-file: '.nvmrc'
+                  registry-url: 'https://registry.npmjs.org'
+            - name: Install
+              run: npm ci
+            - name: Build
+              run: npm run build
+            - name: Publish
+              run: npm run publish-workspaces
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPMJS_CLOUDFLIGHT_ADMIN_CI_TOKEN }}
