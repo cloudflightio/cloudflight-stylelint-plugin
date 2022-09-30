@@ -1,4 +1,5 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "root": "packages/stylelint-plugin-angular",
   "sourceRoot": "packages/stylelint-plugin-angular/src",
   "projectType": "library",
