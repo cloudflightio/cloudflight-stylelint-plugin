@@ -3,11 +3,11 @@
 ## Installation
 
 ```shell
-npm install --save @cloudflight/stylelint-plugin
+npm install --save-dev @cloudflight/stylelint-plugin
 # or
-yarn add @cloudflight/stylelint-plugin
+yarn add -D @cloudflight/stylelint-plugin
 # or
-pnpm add @cloudflight/stylelint-plugin
+pnpm add -D @cloudflight/stylelint-plugin
 ```
 
 Then put this in your `.stylelintrc.json` file:
