@@ -1,14 +1,22 @@
 # stylelint-plugin-angular
 
-## Setup
+## Installation
 
-Put this in your `.stylelintrc.json` file:
+```shell
+npm install --save @cloudflight/stylelint-plugin-angular
+# or
+yarn add @cloudflight/stylelint-plugin-angular
+# or
+pnpm add @cloudflight/stylelint-plugin-angular
+```
+
+Then put this in your `.stylelintrc.json` file:
+
 ```json
 {
   "plugins": ["@cloudflight/stylelint-plugin-angular"],
   "extends": ["@cloudflight/stylelint-plugin-angular/recommended"],
-  "rules": {
-  }
+  "rules": {}
 }
 ```
 
