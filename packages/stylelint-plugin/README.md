@@ -1,13 +1,21 @@
 # stylelint-plugin
 
-## Setup
+## Installation
 
-Put this in your `.stylelintrc.json` file:
+```shell
+npm install --save @cloudflight/stylelint-plugin
+# or
+yarn add @cloudflight/stylelint-plugin
+# or
+pnpm add @cloudflight/stylelint-plugin
+```
+
+Then put this in your `.stylelintrc.json` file:
+
 ```json
 {
   "extends": ["@cloudflight/stylelint-plugin"],
-  "rules": {
-  }
+  "rules": {}
 }
 ```
 
