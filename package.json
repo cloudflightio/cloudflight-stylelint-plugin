@@ -36,7 +36,7 @@
     "tslib": "2.4.0"
   },
   "devDependencies": {
-    "@cloudflight/eslint-plugin-typescript": "0.1.0",
+    "@cloudflight/eslint-plugin-typescript": "0.4.0",
     "@nrwl/cli": "14.4.3",
     "@nrwl/eslint-plugin-nx": "14.4.3",
     "@nrwl/jest": "14.4.3",
