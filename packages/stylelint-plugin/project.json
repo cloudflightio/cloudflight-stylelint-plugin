@@ -1,5 +1,5 @@
 {
-  "root": "packages/stylelint-plugin",
+  "name": "stylelint-plugin",
   "sourceRoot": "packages/stylelint-plugin/src",
   "projectType": "library",
   "targets": {
@@ -22,9 +22,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/stylelint-plugin"],
+      "outputs": ["{workspaceRoot}/coverage/packages/stylelint-plugin"],
       "options": {
-        "jestConfig": "packages/stylelint-plugin/jest.config.js",
+        "jestConfig": "packages/stylelint-plugin/jest.config.ts",
         "passWithNoTests": true
       }
     }
