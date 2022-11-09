@@ -1,5 +1,6 @@
+/* eslint-disable */
 module.exports = {
-  displayName: 'stylelint-plugin-angular',
+  displayName: 'stylelint-plugin',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -11,5 +12,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/packages/stylelint-plugin-angular',
+  coverageDirectory: '../../coverage/packages/stylelint-plugin',
 };

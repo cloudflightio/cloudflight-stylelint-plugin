@@ -1,6 +1,6 @@
 {
+  "name": "stylelint-plugin-angular",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "root": "packages/stylelint-plugin-angular",
   "sourceRoot": "packages/stylelint-plugin-angular/src",
   "projectType": "library",
   "targets": {
@@ -23,9 +23,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/stylelint-plugin-angular"],
+      "outputs": ["{workspaceRoot}/coverage/packages/stylelint-plugin-angular"],
       "options": {
-        "jestConfig": "packages/stylelint-plugin-angular/jest.config.js",
+        "jestConfig": "packages/stylelint-plugin-angular/jest.config.ts",
         "passWithNoTests": true
       }
     }
