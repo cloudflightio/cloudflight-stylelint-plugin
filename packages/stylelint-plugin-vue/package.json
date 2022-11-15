@@ -1,6 +1,6 @@
 {
-  "name": "@clf-internal/stylelint-plugin-vue",
-  "version": "0.0.1",
+  "name": "@cloudflight/stylelint-plugin-vue",
+  "version": "0.2.0",
   "author": "Cloudflight GmbH",
   "license": "Apache-2.0",
   "keywords": [
@@ -22,9 +22,9 @@
     "stylelint-config-html": "1.1.0"
   },
   "peerDependencies": {
-    "postcss": "8.4.18",
+    "postcss": "8.4.19",
     "postcss-html": "1.5.0",
     "postcss-scss": "4.0.5",
-    "stylelint": "14.14.1"
+    "stylelint": "14.15.0"
   }
 }
