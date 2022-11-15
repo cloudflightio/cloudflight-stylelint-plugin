@@ -26,7 +26,7 @@
     "node": "18.12.1"
   },
   "dependencies": {
-    "postcss": "8.4.18",
+    "postcss": "8.4.19",
     "postcss-html": "1.5.0",
     "postcss-scss": "4.0.5",
     "stylelint": "14.14.1",
