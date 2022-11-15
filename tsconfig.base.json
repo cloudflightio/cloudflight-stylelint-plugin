@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@clf-internal/stylelint-plugin-vue": [
+        "packages/stylelint-plugin-vue/src/index.ts"
+      ],
       "@cloudflight/stylelint-plugin": [
         "packages/stylelint-plugin/src/index.js"
       ],
