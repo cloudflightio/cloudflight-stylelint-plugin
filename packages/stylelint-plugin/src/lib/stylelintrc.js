@@ -59,14 +59,15 @@ module.exports = {
     'color-function-notation': 'legacy',
     'color-named': null,
     'plugin/no-low-performance-animation-properties': true,
+    'scss/dollar-variable-empty-line-before': null,
+    'declaration-empty-line-before': null,
+    'custom-property-empty-line-before': null,
+    'color-hex-length': null,
   },
   overrides: [
     {
-      "files": [
-        "*.scss",
-        "**/*.scss"
-      ],
-      "customSyntax": "postcss-scss"
-    }
-  ]
+      files: ['*.scss', '**/*.scss'],
+      customSyntax: 'postcss-scss',
+    },
+  ],
 };
