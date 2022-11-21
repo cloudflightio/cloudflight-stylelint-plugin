@@ -40,7 +40,7 @@
   "devDependencies": {
     "@cloudflight/eslint-plugin-typescript": "0.6.0",
     "@nrwl/cli": "15.0.13",
-    "@nrwl/eslint-plugin-nx": "15.0.13",
+    "@nrwl/eslint-plugin-nx": "15.2.1",
     "@nrwl/jest": "15.0.13",
     "@nrwl/js": "15.0.13",
     "@nrwl/linter": "15.0.13",
