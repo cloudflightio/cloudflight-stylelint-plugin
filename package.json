@@ -2,15 +2,14 @@
   "name": "cloudflight",
   "version": "0.3.0",
   "scripts": {
-    "build": "nx run-many --target=build --all --parallel",
-    "test": "nx run-many --target=test --all --parallel",
-    "lint": "nx run-many --target=lint --all --parallel",
-    "prepublishOnly": "node ./tools/scripts/prepare.js",
-    "publish-workspaces": "npm publish --workspaces"
+    "build": "yarn workspaces foreach -t run build-package",
+    "lint": "eslint .",
+    "test": "yarn workspaces foreach run test-package",
+    "publish-workspaces": "node ./scripts/prepare.js && yarn workspaces foreach --no-private npm publish"
   },
   "private": true,
   "workspaces": [
-    "dist/packages/*"
+    "packages/*"
   ],
   "author": "Cloudflight GmbH",
   "license": "Apache-2.0",
@@ -23,15 +22,16 @@
     "url": "https://github.com/cloudflightio/cloudflight-stylelint-plugin/issues"
   },
   "volta": {
-    "node": "18.12.1"
+    "node": "18.12.1",
+    "yarn": "3.3.0"
   },
   "dependencies": {
     "postcss": "8.4.19",
     "postcss-html": "1.5.0",
     "postcss-scss": "4.0.5",
     "stylelint": "14.15.0",
-    "stylelint-config-prettier": "9.0.4",
     "stylelint-config-html": "1.1.0",
+    "stylelint-config-prettier": "9.0.4",
     "stylelint-config-standard-scss": "6.1.0",
     "stylelint-high-performance-animation": "1.6.0",
     "stylelint-order": "5.0.0",
@@ -39,12 +39,7 @@
   },
   "devDependencies": {
     "@cloudflight/eslint-plugin-typescript": "0.6.0",
-    "@nrwl/cli": "15.0.13",
-    "@nrwl/eslint-plugin-nx": "15.0.13",
-    "@nrwl/jest": "15.0.13",
-    "@nrwl/js": "15.0.13",
-    "@nrwl/linter": "15.0.13",
-    "@nrwl/workspace": "15.0.13",
+    "@rushstack/eslint-patch": "1.2.0",
     "@types/jest": "28.1.8",
     "@types/node": "18.11.9",
     "eslint": "8.27.0",

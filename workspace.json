@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "stylelint-plugin": "packages/stylelint-plugin",
-    "stylelint-plugin-angular": "packages/stylelint-plugin-angular",
-    "stylelint-plugin-vue": "packages/stylelint-plugin-vue"
-  }
-}

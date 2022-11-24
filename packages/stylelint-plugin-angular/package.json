@@ -3,6 +3,9 @@
   "version": "0.3.0",
   "author": "Cloudflight GmbH",
   "license": "Apache-2.0",
+  "scripts": {
+    "build-package": "tsc"
+  },
   "keywords": [
     "stylelint",
     "stylelintplugin",
@@ -12,6 +15,11 @@
   "bugs": {
     "url": "https://github.com/cloudflightio/cloudflight-stylelint-plugin/issues"
   },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**",
+    "recommended.js"
+  ],
   "volta": {
     "extends": "../../package.json"
   },
@@ -22,5 +30,8 @@
     "postcss": "8.4.19",
     "postcss-scss": "4.0.5",
     "stylelint": "14.15.0"
+  },
+  "dependencies": {
+    "@cloudflight/stylelint-plugin": "workspace:*"
   }
 }

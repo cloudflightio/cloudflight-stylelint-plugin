@@ -13,6 +13,7 @@ const fn: Rule = () => (postcssRoot, postcssResult) => {
   for (const node of postcssRoot.nodes) {
     if (
       node.type !== 'rule' ||
+      node.source?.start == null ||
       !node.selector.trimStart().startsWith('::ng-deep')
     ) {
       continue;
@@ -23,7 +24,7 @@ const fn: Rule = () => (postcssRoot, postcssResult) => {
       message: 'Unexpected ng-deep selector without prefix',
       result: postcssResult,
       node,
-      line: node.source?.start?.line,
+      line: node.source.start.line,
       word: node.selector,
     });
   }

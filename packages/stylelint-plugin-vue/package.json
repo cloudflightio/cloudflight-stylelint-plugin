@@ -3,6 +3,9 @@
   "version": "0.3.0",
   "author": "Cloudflight GmbH",
   "license": "Apache-2.0",
+  "scripts": {
+    "build-package": "tsc"
+  },
   "keywords": [
     "stylelint",
     "stylelintplugin",
@@ -15,10 +18,16 @@
   "volta": {
     "extends": "../../package.json"
   },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**",
+    "recommended.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
+    "@cloudflight/stylelint-plugin": "workspace:*",
     "stylelint-config-html": "1.1.0"
   },
   "peerDependencies": {
