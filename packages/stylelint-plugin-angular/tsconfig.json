@@ -1,20 +1,28 @@
 {
-  "extends": "../../tsconfig.base.json",
-  "files": [],
-  "include": [],
-  "references": [
-    {
-      "path": "./tsconfig.lib.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
-  ],
+  "files": ["src/index.ts"],
   "compilerOptions": {
-    "allowJs": true,
+    "target": "ES2015",
+    "useDefineForClassFields": true,
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "./dist/",
+    "importHelpers": true,
+    "importsNotUsedAsValues": "remove",
+    "stripInternal": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true
   }
 }
