@@ -38,7 +38,7 @@
     "tslib": "2.4.1"
   },
   "devDependencies": {
-    "@cloudflight/eslint-plugin-typescript": "0.6.0",
+    "@cloudflight/eslint-plugin-typescript": "0.6.1",
     "@rushstack/eslint-patch": "1.2.0",
     "@types/jest": "28.1.8",
     "@types/node": "18.11.9",

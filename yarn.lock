@@ -397,9 +397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflight/eslint-plugin-typescript@npm:0.6.0":
-  version: 0.6.0
-  resolution: "@cloudflight/eslint-plugin-typescript@npm:0.6.0"
+"@cloudflight/eslint-plugin-typescript@npm:0.6.1":
+  version: 0.6.1
+  resolution: "@cloudflight/eslint-plugin-typescript@npm:0.6.1"
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.42.1
     "@typescript-eslint/parser": 5.42.1
@@ -407,7 +407,7 @@ __metadata:
     eslint-plugin-json-es: 1.5.7
   peerDependencies:
     eslint: ">=8.0.0 <9.0.0"
-  checksum: 7bb32c8cf1d78f1370d867002fc82f156fc5fdf7aa7dc19c5b06c273d1de95ea4dbfe41bff709d08ca02389a7d476a3c3f3272bdc44a8e0a9850a44d916620f1
+  checksum: 10f0ce1aea8541ad587c817e03b56c81e1f7767634559380c97789f2ea92e2f2b0a6a0390d1dc6e903440a5e182b84af0c32e956b76910edbf894fe2162b3bdb
   languageName: node
   linkType: hard
 
@@ -1932,7 +1932,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cloudflight@workspace:."
   dependencies:
-    "@cloudflight/eslint-plugin-typescript": 0.6.0
+    "@cloudflight/eslint-plugin-typescript": 0.6.1
     "@rushstack/eslint-patch": 1.2.0
     "@types/jest": 28.1.8
     "@types/node": 18.11.9
@@ -2932,7 +2932,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -5376,7 +5376,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -6286,11 +6286,11 @@ __metadata:
 
 "typescript@patch:typescript@4.8.4#~builtin<compat/typescript>":
   version: 4.8.4
-  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=0102e9"
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 301459fc3eb3b1a38fe91bf96d98eb55da88a9cb17b4ef80b4d105d620f4d547ba776cc27b44cc2ef58b66eda23fe0a74142feb5e79a6fb99f54fc018a696afa
+  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
   languageName: node
   linkType: hard
 
