@@ -428,9 +428,9 @@ __metadata:
   dependencies:
     "@cloudflight/stylelint-plugin": "workspace:*"
   peerDependencies:
-    postcss: 8.4.19
-    postcss-scss: 4.0.5
-    stylelint: 14.15.0
+    postcss: ^8.4.19
+    postcss-scss: ^4.0.5
+    stylelint: ^14.15.0
   languageName: unknown
   linkType: soft
 
@@ -452,14 +452,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cloudflight/stylelint-plugin@workspace:packages/stylelint-plugin"
   dependencies:
-    stylelint-config-prettier: 9.0.4
-    stylelint-config-standard-scss: 6.1.0
-    stylelint-high-performance-animation: 1.6.0
-    stylelint-order: 5.0.0
+    stylelint-config-prettier: ^9.0.4
+    stylelint-config-standard-scss: ^6.1.0
+    stylelint-high-performance-animation: ^1.6.0
+    stylelint-order: ^5.0.0
   peerDependencies:
-    postcss: 8.4.19
-    postcss-scss: 4.0.5
-    stylelint: 14.15.0
+    postcss: ^8.4.19
+    postcss-scss: ^4.0.5
+    stylelint: ^14.15.0
   languageName: unknown
   linkType: soft
 
@@ -482,20 +482,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.3.3":
-  version: 1.3.3
-  resolution: "@eslint/eslintrc@npm:1.3.3"
+"@eslint/eslintrc@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@eslint/eslintrc@npm:1.4.0"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
     espree: ^9.4.0
-    globals: ^13.15.0
+    globals: ^13.19.0
     ignore: ^5.2.0
     import-fresh: ^3.2.1
     js-yaml: ^4.1.0
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
-  checksum: f03e9d6727efd3e0719da2051ea80c0c73d20e28c171121527dbb868cd34232ca9c1d0525a66e517a404afea26624b1e47895b6a92474678418c2f50c9566694
+  checksum: 73e39c833deafde8d8706e6fa9b52b6d99927c094ead8e405ea4174e8197ec24aac9ba88ae38cc8ad32eaccf07b9c7fc5dc70761d1fba6da41a928691447305f
   languageName: node
   linkType: hard
 
@@ -506,14 +506,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@humanwhocodes/config-array@npm:^0.11.6":
-  version: 0.11.7
-  resolution: "@humanwhocodes/config-array@npm:0.11.7"
+"@humanwhocodes/config-array@npm:^0.11.8":
+  version: 0.11.8
+  resolution: "@humanwhocodes/config-array@npm:0.11.8"
   dependencies:
     "@humanwhocodes/object-schema": ^1.2.1
     debug: ^4.1.1
     minimatch: ^3.0.5
-  checksum: cf506dc45d9488af7fbf108ea6ac2151ba1a25e6d2b94b9b4fc36d2c1e4099b89ff560296dbfa13947e44604d4ca4a90d97a4fb167370bf8dd01a6ca2b6d83ac
+  checksum: 0fd6b3c54f1674ce0a224df09b9c2f9846d20b9e54fabae1281ecfc04f2e6ad69bf19e1d6af6a28f88e8aa3990168b6cb9e1ef755868c3256a630605ec2cb1d3
   languageName: node
   linkType: hard
 
@@ -1032,13 +1032,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.2.3":
-  version: 29.2.3
-  resolution: "@types/jest@npm:29.2.3"
+"@types/jest@npm:29.2.4":
+  version: 29.2.4
+  resolution: "@types/jest@npm:29.2.4"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 55370906711b600a05b9e497c22aa74d80d8adcdbe4ac2f1bc9311f6f6ca0dd192862b6f38df6ac0d45e92396bcd796e377b1d8058c10bdfd584aeee580c3ce1
+  checksum: 9deb4756fe1b438d41ff1aae7d6c216c9e49e5fe60f539f8edb6698ffeb530ff7b25d37e223439b03602ca3a7397c9c2e53e1a39c7bd616353472fce0cc04107
   languageName: node
   linkType: hard
 
@@ -1070,10 +1070,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.11":
-  version: 18.11.11
-  resolution: "@types/node@npm:18.11.11"
-  checksum: c4b1176a8f1714a3ee3fc2a5e1d568b0cd50209000282db5c68154b3c975952928dbb834ef3a0ce55bd7b345ae29f2cbf4a34635a070294d135a24254231386a
+"@types/node@npm:18.11.17":
+  version: 18.11.17
+  resolution: "@types/node@npm:18.11.17"
+  checksum: 1933afd068d5c75c068c6c4df6d10edb3b0b2bb6503d544e2f0496ac007c90596e6a5e284a8ef032451bc16f871b7e46719d7d2bea60e9b25d13a77d52161cac
   languageName: node
   linkType: hard
 
@@ -1776,26 +1776,26 @@ __metadata:
   dependencies:
     "@cloudflight/eslint-plugin-typescript": 0.7.0
     "@rushstack/eslint-patch": 1.2.0
-    "@types/jest": 29.2.3
-    "@types/node": 18.11.11
-    eslint: 8.29.0
+    "@types/jest": 29.2.4
+    "@types/node": 18.11.17
+    eslint: 8.30.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-import: 2.26.0
     jest: 29.3.1
-    postcss: 8.4.19
+    postcss: 8.4.20
     postcss-html: 1.5.0
     postcss-scss: 4.0.6
-    prettier: 2.8.0
+    prettier: 2.8.1
     stylelint: 14.16.0
     stylelint-config-html: 1.1.0
     stylelint-config-prettier: 9.0.4
     stylelint-config-standard-scss: 6.1.0
-    stylelint-high-performance-animation: 1.6.0
+    stylelint-high-performance-animation: 1.7.0
     stylelint-order: 5.0.0
     ts-jest: 29.0.3
     ts-node: 10.9.1
     tslib: 2.4.1
-    typescript: 4.9.3
+    typescript: 4.9.4
   languageName: unknown
   linkType: soft
 
@@ -2367,12 +2367,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.29.0":
-  version: 8.29.0
-  resolution: "eslint@npm:8.29.0"
+"eslint@npm:8.30.0":
+  version: 8.30.0
+  resolution: "eslint@npm:8.30.0"
   dependencies:
-    "@eslint/eslintrc": ^1.3.3
-    "@humanwhocodes/config-array": ^0.11.6
+    "@eslint/eslintrc": ^1.4.0
+    "@humanwhocodes/config-array": ^0.11.8
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
     ajv: ^6.10.0
@@ -2391,7 +2391,7 @@ __metadata:
     file-entry-cache: ^6.0.1
     find-up: ^5.0.0
     glob-parent: ^6.0.2
-    globals: ^13.15.0
+    globals: ^13.19.0
     grapheme-splitter: ^1.0.4
     ignore: ^5.2.0
     import-fresh: ^3.0.0
@@ -2412,7 +2412,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: e05204b05907b82d910983995cb946e0ba62ca514eb2b6791c43f623333b143564a2eee0139909d31c10935c21877d815b1f76dd674a59cb91c471064325c4ab
+  checksum: b7525bb465b342665c3b8bab7e114d514ef1bc4e79f211c919863f9c71767e7412ec82383a22614a92d159783f91101018817000f7c61ce69a5e7015280cafaf
   languageName: node
   linkType: hard
 
@@ -2825,12 +2825,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.15.0":
-  version: 13.18.0
-  resolution: "globals@npm:13.18.0"
+"globals@npm:^13.19.0":
+  version: 13.19.0
+  resolution: "globals@npm:13.19.0"
   dependencies:
     type-fest: ^0.20.2
-  checksum: 9fdaa74cfd5d4ac91319662f512c29b11d1d2deb9c8a20d3998097671deba83d195f20730b2345887de3ddab958a6fa68952feed9ae836ee4594a82ace62fdb4
+  checksum: a000dbd00bcf28f0941d8a29c3522b1c3b8e4bfe4e60e262c477a550c3cbbe8dbe2925a6905f037acd40f9a93c039242e1f7079c76b0fd184bc41dcc3b5c8e2e
   languageName: node
   linkType: hard
 
@@ -4710,7 +4710,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.19, postcss@npm:^8.3.11, postcss@npm:^8.4.0, postcss@npm:^8.4.19":
+"postcss@npm:8.4.20":
+  version: 8.4.20
+  resolution: "postcss@npm:8.4.20"
+  dependencies:
+    nanoid: ^3.3.4
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 1a5609ea1c1b204f9c2974a0019ae9eef2d99bf645c2c9aac675166c4cb1005be7b5e2ba196160bc771f5d9ac896ed883f236f888c891e835e59d28fff6651aa
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.3.11, postcss@npm:^8.4.0, postcss@npm:^8.4.19":
   version: 8.4.19
   resolution: "postcss@npm:8.4.19"
   dependencies:
@@ -4728,12 +4739,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.0":
-  version: 2.8.0
-  resolution: "prettier@npm:2.8.0"
+"prettier@npm:2.8.1":
+  version: 2.8.1
+  resolution: "prettier@npm:2.8.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 72004ce0cc9bb097daf3e3833f62495768724392c1d5b178dd47372337616e9e50ecbb0804f236596223f7b5eb1bbe69cefc8957dca21112c5777e77ef73a564
+  checksum: 4f21a0f1269f76fb36f54e9a8a1ea4c11e27478958bf860661fb4b6d7ac69aac1581f8724fa98ea3585e56d42a2ea317a17ff6e3324f40cb11ff9e20b73785cc
   languageName: node
   linkType: hard
 
@@ -5315,7 +5326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier@npm:9.0.4":
+"stylelint-config-prettier@npm:9.0.4, stylelint-config-prettier@npm:^9.0.4":
   version: 9.0.4
   resolution: "stylelint-config-prettier@npm:9.0.4"
   peerDependencies:
@@ -5353,7 +5364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard-scss@npm:6.1.0":
+"stylelint-config-standard-scss@npm:6.1.0, stylelint-config-standard-scss@npm:^6.1.0":
   version: 6.1.0
   resolution: "stylelint-config-standard-scss@npm:6.1.0"
   dependencies:
@@ -5380,16 +5391,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-high-performance-animation@npm:1.6.0":
-  version: 1.6.0
-  resolution: "stylelint-high-performance-animation@npm:1.6.0"
+"stylelint-high-performance-animation@npm:1.7.0, stylelint-high-performance-animation@npm:^1.6.0":
+  version: 1.7.0
+  resolution: "stylelint-high-performance-animation@npm:1.7.0"
+  dependencies:
+    postcss-value-parser: ^4.2.0
   peerDependencies:
     stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0
-  checksum: b2b32fb7355c6151d39779f42e64ee133cbba7ff472db0252883d32260e2f155e48994aaa9cb9e1260c5be561d9ec71eed98b5d46aa5d1504b1df3166096e09a
+  checksum: 95c1ea4159f2f6cd5691242b8e43a6c37eadeb8308c1583393f31708cd7d93e916c2f4140e20f80d5906ae3c37377bb00dd635f7b9f88ec775c957cc3246e470
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:5.0.0":
+"stylelint-order@npm:5.0.0, stylelint-order@npm:^5.0.0":
   version: 5.0.0
   resolution: "stylelint-order@npm:5.0.0"
   dependencies:
@@ -5749,23 +5762,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.9.3":
-  version: 4.9.3
-  resolution: "typescript@npm:4.9.3"
+"typescript@npm:4.9.4":
+  version: 4.9.4
+  resolution: "typescript@npm:4.9.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 17b8f816050b412403e38d48eef0e893deb6be522d6dc7caf105e54a72e34daf6835c447735fd2b28b66784e72bfbf87f627abb4818a8e43d1fa8106396128dc
+  checksum: e782fb9e0031cb258a80000f6c13530288c6d63f1177ed43f770533fdc15740d271554cdae86701c1dd2c83b082cea808b07e97fd68b38a172a83dbf9e0d0ef9
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.9.3#~builtin<compat/typescript>":
-  version: 4.9.3
-  resolution: "typescript@patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"
+"typescript@patch:typescript@4.9.4#~builtin<compat/typescript>":
+  version: 4.9.4
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 67ca21a387c0572f1c04936e638dde7782c5aa520c3754aadc7cc9b7c915da9ebc3e27c601bfff4ccb7d7264e82dce6d277ada82ec09dc75024349e0ef64926d
+  checksum: 37f6e2c3c5e2aa5934b85b0fddbf32eeac8b1bacf3a5b51d01946936d03f5377fe86255d4e5a4ae628fd0cd553386355ad362c57f13b4635064400f3e8e05b9d
   languageName: node
   linkType: hard
 
