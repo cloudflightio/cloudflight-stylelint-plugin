@@ -41,7 +41,7 @@
     "@cloudflight/eslint-plugin-typescript": "0.8.0",
     "@rushstack/eslint-patch": "1.2.0",
     "@types/jest": "29.4.0",
-    "@types/node": "18.11.18",
+    "@types/node": "18.13.0",
     "eslint": "8.33.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.27.5",
