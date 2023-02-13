@@ -28,7 +28,7 @@
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-standard-scss": "^6.1.0",
     "stylelint-high-performance-animation": "^1.6.0",
-    "stylelint-order": "^6.0.1"
+    "stylelint-order": "^6.0.2"
   },
   "peerDependencies": {
     "postcss": "^8.4.19",
