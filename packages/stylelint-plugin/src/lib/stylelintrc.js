@@ -32,6 +32,7 @@ module.exports = {
     'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
+    'no-empty-source': null,
     'no-invalid-double-slash-comments': null,
     'no-invalid-position-at-import-rule': true,
     'length-zero-no-unit': true,
