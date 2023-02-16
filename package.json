@@ -1,6 +1,6 @@
 {
   "name": "cloudflight",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "scripts": {
     "build": "yarn workspaces foreach -t run build-package",
     "lint": "eslint .",
