@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['stylelint-high-performance-animation', 'stylelint-order'],
-  extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-standard-scss'],
   rules: {
     'color-no-invalid-hex': true,
     'font-family-no-duplicate-names': true,
@@ -32,8 +32,6 @@ module.exports = {
     'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
-    // angular creates empty scss files and most people are too lazy to delete them
-    'no-empty-source': null,
     'no-invalid-double-slash-comments': null,
     'no-invalid-position-at-import-rule': true,
     'length-zero-no-unit': true,
@@ -63,6 +61,7 @@ module.exports = {
     'declaration-empty-line-before': null,
     'custom-property-empty-line-before': null,
     'color-hex-length': null,
+    'declaration-property-value-no-unknown': true,
   },
   overrides: [
     {

@@ -1,5 +1,4 @@
-import * as stylelint from 'stylelint';
-import { Rule } from 'stylelint';
+import stylelint, { Rule } from 'stylelint';
 
 const ruleName = '@cloudflight-stylelint-angular/ng-deep-selector-prefix';
 
