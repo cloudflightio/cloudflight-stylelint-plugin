@@ -52,7 +52,6 @@ module.exports = {
         unspecified: 'bottom',
       },
     ],
-    indentation: null,
     'selector-class-pattern': null,
     'alpha-value-notation': 'percentage',
     'color-function-notation': 'legacy',
