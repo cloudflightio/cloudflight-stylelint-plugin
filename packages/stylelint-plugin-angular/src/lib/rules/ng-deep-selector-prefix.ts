@@ -2,6 +2,7 @@ import stylelint, { Rule } from 'stylelint';
 
 const ruleName = '@cloudflight-stylelint-angular/ng-deep-selector-prefix';
 
+// eslint-disable-next-line func-style
 const fn: Rule = () => (postcssRoot, postcssResult) => {
   const validOptions = stylelint.utils.validateOptions(postcssResult, ruleName);
 
