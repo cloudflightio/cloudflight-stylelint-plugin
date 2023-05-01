@@ -454,7 +454,7 @@ __metadata:
   dependencies:
     stylelint-config-standard-scss: ^7.0.1
     stylelint-high-performance-animation: ^1.8.0
-    stylelint-order: ^6.0.2
+    stylelint-order: ^6.0.3
   peerDependencies:
     postcss: ^8.4.19
     postcss-scss: ^4.0.5
@@ -5128,15 +5128,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-sorting@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "postcss-sorting@npm:8.0.1"
-  peerDependencies:
-    postcss: ^8.4.20
-  checksum: 044d1dcbe04458a3d0fbd90854d408afae3fb90474d3b70021828f7b6fc0820133ad6b8d194268847e2afee50524686b70dee930ed19039469ff828283331af1
-  languageName: node
-  linkType: hard
-
 "postcss-sorting@npm:^8.0.2":
   version: 8.0.2
   resolution: "postcss-sorting@npm:8.0.2"
@@ -5932,7 +5923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:6.0.3":
+"stylelint-order@npm:6.0.3, stylelint-order@npm:^6.0.3":
   version: 6.0.3
   resolution: "stylelint-order@npm:6.0.3"
   dependencies:
@@ -5941,18 +5932,6 @@ __metadata:
   peerDependencies:
     stylelint: ^14.0.0 || ^15.0.0
   checksum: dc2883a8a7918a752928f6cc2c860508e3f21c7189c0675ddba15056c683c234f5548f0c4a410e9a9ac0d2be8b4a4657e5674f01b6ad39f2b89053bf907aa744
-  languageName: node
-  linkType: hard
-
-"stylelint-order@npm:^6.0.2":
-  version: 6.0.2
-  resolution: "stylelint-order@npm:6.0.2"
-  dependencies:
-    postcss: ^8.4.21
-    postcss-sorting: ^8.0.1
-  peerDependencies:
-    stylelint: ^14.0.0 || ^15.0.0
-  checksum: 0895dcc28050214aa6c062f358edb8f8b7693c918ffe6b40645c8af64017b55d31ae9bc1fe156e83d7d6a57a783f1a0c3311c5bdbb0618d426ac866e03ac0f80
   languageName: node
   linkType: hard
 
@@ -6327,11 +6306,11 @@ __metadata:
 
 "typescript@patch:typescript@5.0.3#~builtin<compat/typescript>":
   version: 5.0.3
-  resolution: "typescript@patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=1f5320"
+  resolution: "typescript@patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 9ec0a8eed38d46cc2c8794555b7674e413604c56c159f71b8ff21ce7f17334a44127a68724cb2ef8221ff3b19369f8f05654e8a5266621d7d962aeed889bd630
+  checksum: 5580367025ff7ee1f2a61e5affdbddccfe6e893bc662aa33fefdbf12de7e493173fa7d47475e9e15121828691004c4ed13bcd115e57866baed97b54c60954e1c
   languageName: node
   linkType: hard
 
