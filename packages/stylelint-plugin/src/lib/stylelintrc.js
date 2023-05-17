@@ -8,7 +8,9 @@ module.exports = {
     'named-grid-areas-no-invalid': true,
     'function-calc-no-unspaced-operator': true,
     'function-linear-gradient-no-nonstandard-direction': true,
-    'function-no-unknown': true,
+    // these 2 rules don't work well with @function
+    'function-no-unknown': null,
+    'scss/function-no-unknown': null,
     'string-no-newline': true,
     'unit-no-unknown': true,
     'custom-property-no-missing-var-function': true,
@@ -41,11 +43,19 @@ module.exports = {
       [
         {
           type: 'at-rule',
+          name: 'extend',
+        },
+        {
+          type: 'at-rule',
           name: 'include',
         },
         'custom-properties',
         'dollar-variables',
         'declarations',
+        {
+          type: 'at-rule',
+          name: 'media',
+        },
         'rules',
       ],
       {
