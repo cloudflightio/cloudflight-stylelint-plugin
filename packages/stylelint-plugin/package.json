@@ -1,6 +1,6 @@
 {
   "name": "@cloudflight/stylelint-plugin",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "author": "Cloudflight GmbH",
   "license": "Apache-2.0",
   "scripts": {
