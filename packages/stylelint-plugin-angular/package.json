@@ -1,37 +1,37 @@
 {
-  "name": "@cloudflight/stylelint-plugin-angular",
-  "version": "0.6.0",
-  "author": "Cloudflight GmbH",
-  "license": "Apache-2.0",
-  "scripts": {
-    "build-package": "tsc"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelintplugin",
-    "angular"
-  ],
-  "homepage": "https://github.com/cloudflightio/cloudflight-stylelint-plugin",
-  "bugs": {
-    "url": "https://github.com/cloudflightio/cloudflight-stylelint-plugin/issues"
-  },
-  "main": "./dist/index.js",
-  "files": [
-    "dist/**",
-    "recommended.js"
-  ],
-  "volta": {
-    "extends": "../../package.json"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "peerDependencies": {
-    "postcss": "^8.4.19",
-    "postcss-scss": "^4.0.5",
-    "stylelint": "^15.1.0"
-  },
-  "dependencies": {
-    "@cloudflight/stylelint-plugin": "workspace:*"
-  }
+    "name": "@cloudflight/stylelint-plugin-angular",
+    "version": "0.6.1",
+    "author": "Cloudflight GmbH",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build-package": "tsc"
+    },
+    "keywords": [
+        "stylelint",
+        "stylelintplugin",
+        "angular"
+    ],
+    "homepage": "https://github.com/cloudflightio/cloudflight-stylelint-plugin",
+    "bugs": {
+        "url": "https://github.com/cloudflightio/cloudflight-stylelint-plugin/issues"
+    },
+    "main": "./dist/index.js",
+    "files": [
+        "dist/**",
+        "recommended.js"
+    ],
+    "volta": {
+        "extends": "../../package.json"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "postcss": "^8.4.19",
+        "postcss-scss": "^4.0.5",
+        "stylelint": "^15.1.0"
+    },
+    "dependencies": {
+        "@cloudflight/stylelint-plugin": "workspace:*"
+    }
 }
