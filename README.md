@@ -12,10 +12,10 @@ This repository contains multiple Stylelint plugins to enforce rules for clean c
 
 Please refer to the README's of each plugin to get started:
 
-- [@cloudflight/stylelint-plugin](packages/stylelint-plugin/README.md)
-- [@cloudflight/stylelint-plugin-angular](packages/stylelint-plugin-angular/README.md)
-- [@cloudflight/stylelint-plugin-vue](packages/stylelint-plugin-vue/README.md)
+-   [@cloudflight/stylelint-plugin](packages/stylelint-plugin/README.md)
+-   [@cloudflight/stylelint-plugin-angular](packages/stylelint-plugin-angular/README.md)
+-   [@cloudflight/stylelint-plugin-vue](packages/stylelint-plugin-vue/README.md)
 
 ## Contributing
 
-- [Contributing to the project](CONTRIBUTING.md)
+-   [Contributing to the project](CONTRIBUTING.md)

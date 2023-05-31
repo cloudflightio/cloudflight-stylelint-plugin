@@ -14,8 +14,8 @@ Then put this in your `.stylelintrc.json` file:
 
 ```json
 {
-  "extends": ["@cloudflight/stylelint-plugin"],
-  "rules": {}
+    "extends": ["@cloudflight/stylelint-plugin"],
+    "rules": {}
 }
 ```
 

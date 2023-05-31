@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-html/vue'],
-  plugins: ['.'],
-  rules: {},
+    extends: ['stylelint-config-html/vue'],
+    plugins: ['.'],
+    rules: {},
 };

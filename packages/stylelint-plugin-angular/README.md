@@ -14,9 +14,9 @@ Then put this in your `.stylelintrc.json` file:
 
 ```json
 {
-  "plugins": ["@cloudflight/stylelint-plugin-angular"],
-  "extends": ["@cloudflight/stylelint-plugin-angular/recommended"],
-  "rules": {}
+    "plugins": ["@cloudflight/stylelint-plugin-angular"],
+    "extends": ["@cloudflight/stylelint-plugin-angular/recommended"],
+    "rules": {}
 }
 ```
 
