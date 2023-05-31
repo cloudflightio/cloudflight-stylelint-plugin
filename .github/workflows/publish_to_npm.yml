@@ -1,18 +1,18 @@
 name: publish-to-npm
 on:
-  release:
-    types: [created]
+    release:
+        types: [created]
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: volta-cli/action@v4
-      - name: Install
-        run: yarn install --immutable --check-cache
-      - name: Build
-        run: yarn run build
-      - name: Publish
-        run: yarn run publish-workspaces
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPMJS_CLOUDFLIGHT_ADMIN_CI_TOKEN }}
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: volta-cli/action@v4
+            - name: Install
+              run: yarn install --immutable --check-cache
+            - name: Build
+              run: yarn run build
+            - name: Publish
+              run: yarn run publish-workspaces
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPMJS_CLOUDFLIGHT_ADMIN_CI_TOKEN }}

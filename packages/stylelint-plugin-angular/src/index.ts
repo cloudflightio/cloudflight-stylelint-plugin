@@ -1,5 +1,3 @@
-import { ngDeepSelectorPrefix } from './lib/rules/ng-deep-selector-prefix';
+import {ngDeepSelectorPrefix} from './lib/rules/ng-deep-selector-prefix';
 
-export default [
-  ngDeepSelectorPrefix
-];
+export default [ngDeepSelectorPrefix];

@@ -3,7 +3,7 @@
     "version": "0.6.1",
     "scripts": {
         "build": "yarn workspaces foreach -t run build-package",
-        "lint": "eslint .",
+        "lint": "eslint . && prettier --check .",
         "test": "yarn workspaces foreach run test-package",
         "postinstall": "husky install",
         "publish-workspaces": "node ./scripts/prepare.js && yarn workspaces foreach --no-private npm publish"

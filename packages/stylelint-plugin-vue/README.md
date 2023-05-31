@@ -14,9 +14,9 @@ Then put this in your `.stylelintrc.json` file:
 
 ```json
 {
-  "plugins": ["@cloudflight/stylelint-plugin-vue"],
-  "extends": ["@cloudflight/stylelint-plugin-vue/recommended"],
-  "rules": {}
+    "plugins": ["@cloudflight/stylelint-plugin-vue"],
+    "extends": ["@cloudflight/stylelint-plugin-vue/recommended"],
+    "rules": {}
 }
 ```
 
