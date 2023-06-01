@@ -27,23 +27,23 @@
         "yarn": "4.0.0-rc.43"
     },
     "dependencies": {
-        "postcss": "8.4.23",
+        "postcss": "8.4.24",
         "postcss-html": "1.5.0",
         "postcss-scss": "4.0.6",
-        "stylelint": "15.6.0",
+        "stylelint": "15.6.2",
         "stylelint-config-html": "1.1.0",
         "stylelint-config-standard-scss": "9.0.0",
         "stylelint-high-performance-animation": "1.8.0",
         "stylelint-order": "6.0.3",
-        "tslib": "2.5.0"
+        "tslib": "2.5.2"
     },
     "devDependencies": {
-        "@cloudflight/eslint-plugin-typescript": "0.15.0",
-        "@cloudflight/prettier-config": "0.15.0",
-        "@rushstack/eslint-patch": "1.2.0",
-        "@types/jest": "29.5.1",
-        "@types/node": "18.16.3",
-        "eslint": "8.39.0",
+        "@cloudflight/eslint-plugin-typescript": "0.16.1",
+        "@cloudflight/prettier-config": "0.16.1",
+        "@rushstack/eslint-patch": "1.3.0",
+        "@types/jest": "29.5.2",
+        "@types/node": "18.16.16",
+        "eslint": "8.41.0",
         "eslint-config-prettier": "8.8.0",
         "eslint-plugin-import": "2.27.5",
         "husky": "8.0.3",
