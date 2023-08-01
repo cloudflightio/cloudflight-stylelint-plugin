@@ -39,7 +39,7 @@
     },
     "devDependencies": {
         "@cloudflight/eslint-plugin-typescript": "0.16.2",
-        "@cloudflight/prettier-config": "0.16.2",
+        "@cloudflight/prettier-config": "0.18.0",
         "@rushstack/eslint-patch": "1.3.2",
         "@types/jest": "29.5.2",
         "@types/node": "18.16.19",
