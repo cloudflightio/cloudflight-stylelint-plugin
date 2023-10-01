@@ -27,7 +27,7 @@
         "yarn": "4.0.0-rc.48"
     },
     "dependencies": {
-        "postcss": "8.4.29",
+        "postcss": "8.4.31",
         "postcss-html": "1.5.0",
         "postcss-scss": "4.0.7",
         "stylelint": "15.10.3",
