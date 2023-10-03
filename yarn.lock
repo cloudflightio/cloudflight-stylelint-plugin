@@ -525,15 +525,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflight/prettier-config@npm:0.18.0":
-  version: 0.18.0
-  resolution: "@cloudflight/prettier-config@npm:0.18.0"
-  peerDependencies:
-    prettier: ">=2.0.0 <3.0.0"
-  checksum: 73969d94440dc1c8a0ab999ee42d0675a7dde252c4992c8aef8e0d4418e806740787a5cf8be9576c72448f60be1bd3d983c3c53f05af70eb837ce1c36e212977
-  languageName: node
-  linkType: hard
-
 "@cloudflight/stylelint-plugin-angular@workspace:packages/stylelint-plugin-angular":
   version: 0.0.0-use.local
   resolution: "@cloudflight/stylelint-plugin-angular@workspace:packages/stylelint-plugin-angular"
@@ -2234,7 +2225,6 @@ __metadata:
   resolution: "cloudflight@workspace:."
   dependencies:
     "@cloudflight/eslint-plugin-typescript": "npm:0.20.5"
-    "@cloudflight/prettier-config": "npm:0.18.0"
     "@rushstack/eslint-patch": "npm:1.5.1"
     "@types/jest": "npm:29.5.5"
     "@types/node": "npm:18.18.1"
