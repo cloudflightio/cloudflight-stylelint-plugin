@@ -27,6 +27,9 @@ const fn: Rule = () => (postcssRoot, postcssResult) => {
 };
 
 fn.ruleName = ruleName;
-fn.messages = {};
+fn.messages = stylelint.utils.ruleMessages(ruleName, {});
+fn.meta = {
+    url: 'https://github.com/cloudflightio/cloudflight-stylelint-plugin/blob/main/packages/stylelint-plugin-angular/src/lib/rules/ng-deep-selector-prefix.md',
+};
 
 export const ngDeepSelectorPrefix = stylelint.createPlugin(ruleName, fn);
