@@ -1,5 +1,5 @@
 module.exports = {
-    plugins: ['stylelint-high-performance-animation', 'stylelint-order'],
+    plugins: ['stylelint-order'],
     extends: ['stylelint-config-standard-scss'],
     rules: {
         'color-no-invalid-hex': true,
@@ -58,7 +58,6 @@ module.exports = {
         'alpha-value-notation': 'percentage',
         'color-function-notation': 'legacy',
         'color-named': null,
-        'plugin/no-low-performance-animation-properties': true,
         'scss/dollar-variable-empty-line-before': null,
         'declaration-empty-line-before': null,
         'custom-property-empty-line-before': null,
