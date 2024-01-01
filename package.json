@@ -40,7 +40,7 @@
         "@cloudflight/eslint-plugin-typescript": "0.22.0",
         "@rushstack/eslint-patch": "1.6.0",
         "@types/jest": "29.5.11",
-        "@types/node": "20.10.4",
+        "@types/node": "20.10.6",
         "eslint": "8.55.0",
         "eslint-plugin-import": "2.29.0",
         "husky": "8.0.3",
