@@ -10,13 +10,13 @@ yarn add -D @cloudflight/stylelint-plugin-angular
 pnpm add -D @cloudflight/stylelint-plugin-angular
 ```
 
-Then put this in your `.stylelintrc.json` file:
+Then put this in your `.stylelintrc.mjs` file:
 
-```json
-{
-    "plugins": ["@cloudflight/stylelint-plugin-angular"],
-    "extends": ["@cloudflight/stylelint-plugin-angular/recommended"],
-    "rules": {}
+```js
+/** @type {import('stylelint').Config} */
+export default {
+  extends: ['@cloudflight/stylelint-plugin-angular'],
+  rules: {},
 }
 ```
 

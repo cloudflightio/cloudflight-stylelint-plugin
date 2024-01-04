@@ -1,9 +1,10 @@
-import stylelint, {Rule} from 'stylelint';
+const stylelint = require('stylelint');
 
-const ruleName = '@cloudflight-stylelint-angular/ng-deep-selector-prefix';
+const ruleName = 'cloudflight-stylelint-angular/ng-deep-selector-prefix';
 
+/** @type {import('stylelint').Rule} */
 // eslint-disable-next-line func-style
-const fn: Rule = () => (postcssRoot, postcssResult) => {
+const fn = () => (postcssRoot, postcssResult) => {
     const validOptions = stylelint.utils.validateOptions(postcssResult, ruleName);
 
     if (!validOptions) {
@@ -32,4 +33,4 @@ fn.meta = {
     url: 'https://github.com/cloudflightio/cloudflight-stylelint-plugin/blob/main/packages/stylelint-plugin-angular/src/lib/rules/ng-deep-selector-prefix.md',
 };
 
-export const ngDeepSelectorPrefix = stylelint.createPlugin(ruleName, fn);
+module.exports = stylelint.createPlugin(ruleName, fn);

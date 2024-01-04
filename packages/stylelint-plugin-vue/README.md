@@ -10,13 +10,13 @@ yarn add -D @cloudflight/stylelint-plugin-vue
 pnpm add -D @cloudflight/stylelint-plugin-vue
 ```
 
-Then put this in your `.stylelintrc.json` file:
+Then put this in your `.stylelintrc.mjs` file:
 
-```json
-{
-    "plugins": ["@cloudflight/stylelint-plugin-vue"],
-    "extends": ["@cloudflight/stylelint-plugin-vue/recommended"],
-    "rules": {}
+```js
+/** @type {import('stylelint').Config} */
+export default {
+  extends: ['@cloudflight/stylelint-plugin-vue'],
+  rules: {},
 }
 ```
 
