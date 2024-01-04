@@ -1,6 +1,6 @@
 {
     "name": "@cloudflight/stylelint-plugin",
-    "version": "0.8.1",
+    "version": "0.8.2",
     "author": "Cloudflight GmbH",
     "license": "Apache-2.0",
     "scripts": {
@@ -25,7 +25,7 @@
         "access": "public"
     },
     "dependencies": {
-        "stylelint-config-standard-scss": "^12.0.0",
+        "stylelint-config-standard-scss": "^13.0.0",
         "stylelint-order": "^6.0.4"
     },
     "peerDependencies": {
