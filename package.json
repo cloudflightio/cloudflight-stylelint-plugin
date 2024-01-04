@@ -1,6 +1,6 @@
 {
     "name": "cloudflight",
-    "version": "0.8.1",
+    "version": "0.8.2",
     "scripts": {
         "build": "yarn workspaces foreach -ptA run build-package",
         "lint": "eslint . && eslint --config .eslintrc.format.js .",
@@ -30,19 +30,19 @@
         "postcss": "8.4.32",
         "postcss-html": "1.5.0",
         "postcss-scss": "4.0.9",
-        "stylelint": "16.0.2",
+        "stylelint": "16.1.0",
         "stylelint-config-html": "1.1.0",
-        "stylelint-config-standard-scss": "12.0.0",
+        "stylelint-config-standard-scss": "13.0.0",
         "stylelint-order": "6.0.4",
         "tslib": "2.6.2"
     },
     "devDependencies": {
         "@cloudflight/eslint-plugin-typescript": "0.22.0",
-        "@rushstack/eslint-patch": "1.6.0",
+        "@rushstack/eslint-patch": "1.6.1",
         "@types/jest": "29.5.11",
-        "@types/node": "20.10.4",
-        "eslint": "8.55.0",
-        "eslint-plugin-import": "2.29.0",
+        "@types/node": "20.10.6",
+        "eslint": "8.56.0",
+        "eslint-plugin-import": "2.29.1",
         "husky": "8.0.3",
         "jest": "29.7.0",
         "lint-staged": "15.2.0",
