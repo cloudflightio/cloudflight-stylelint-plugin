@@ -13,6 +13,7 @@ module.exports = {
         sourceType: 'module',
         tsconfigRootDir: __dirname,
         project: ['./packages/*/tsconfig.json', './packages/*/tsconfig.spec.json'],
+        ecmaVersion: "latest",
     },
     rules: {
         '@cloudflight/typescript/package-force-absolute-version-dependencies': 'off',
