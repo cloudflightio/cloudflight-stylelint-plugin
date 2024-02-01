@@ -38,7 +38,7 @@
     },
     "devDependencies": {
         "@cloudflight/eslint-plugin-typescript": "0.23.0",
-        "@rushstack/eslint-patch": "1.6.1",
+        "@rushstack/eslint-patch": "1.7.2",
         "@types/jest": "29.5.11",
         "@types/node": "20.10.6",
         "eslint": "8.56.0",
