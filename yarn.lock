@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -450,7 +450,7 @@ __metadata:
   resolution: "@cloudflight/stylelint-plugin-vue@workspace:packages/stylelint-plugin-vue"
   dependencies:
     "@cloudflight/stylelint-plugin": "workspace:*"
-    stylelint-config-html: "npm:^1.1.0"
+    stylelint-config-html: ^1.1.0
   peerDependencies:
     postcss: ^8.4.33
     postcss-html: ^1.5.0
@@ -463,8 +463,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cloudflight/stylelint-plugin@workspace:packages/stylelint-plugin"
   dependencies:
-    stylelint-config-standard-scss: "npm:^13.0.0"
-    stylelint-order: "npm:^6.0.4"
+    stylelint-config-standard-scss: ^13.0.0
+    stylelint-order: ^6.0.4
   peerDependencies:
     postcss: ^8.4.33
     postcss-scss: ^4.0.9
@@ -2019,26 +2019,26 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cloudflight@workspace:."
   dependencies:
-    "@cloudflight/eslint-plugin-typescript": "npm:0.23.0"
-    "@rushstack/eslint-patch": "npm:1.6.1"
-    "@types/jest": "npm:29.5.11"
-    "@types/node": "npm:20.10.6"
-    eslint: "npm:8.56.0"
-    eslint-plugin-import: "npm:2.29.1"
-    husky: "npm:8.0.3"
-    jest: "npm:29.7.0"
-    lint-staged: "npm:15.2.0"
-    postcss: "npm:8.4.33"
-    postcss-html: "npm:1.5.0"
-    postcss-scss: "npm:4.0.9"
-    stylelint: "npm:16.1.0"
-    stylelint-config-html: "npm:1.1.0"
-    stylelint-config-standard-scss: "npm:13.0.0"
-    stylelint-order: "npm:6.0.4"
-    ts-jest: "npm:29.1.1"
-    ts-node: "npm:10.9.2"
-    tslib: "npm:2.6.2"
-    typescript: "npm:5.3.3"
+    "@cloudflight/eslint-plugin-typescript": 0.23.0
+    "@rushstack/eslint-patch": 1.6.1
+    "@types/jest": 29.5.11
+    "@types/node": 20.10.6
+    eslint: 8.56.0
+    eslint-plugin-import: 2.29.1
+    husky: 9.0.7
+    jest: 29.7.0
+    lint-staged: 15.2.0
+    postcss: 8.4.33
+    postcss-html: 1.5.0
+    postcss-scss: 4.0.9
+    stylelint: 16.1.0
+    stylelint-config-html: 1.1.0
+    stylelint-config-standard-scss: 13.0.0
+    stylelint-order: 6.0.4
+    ts-jest: 29.1.1
+    ts-node: 10.9.2
+    tslib: 2.6.2
+    typescript: 5.3.3
   languageName: unknown
   linkType: soft
 
@@ -3073,9 +3073,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A^2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -3492,12 +3492,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.3":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
+"husky@npm:9.0.7":
+  version: 9.0.7
+  resolution: "husky@npm:9.0.7"
   bin:
-    husky: lib/bin.js
-  checksum: b754cf70fdc97c3b60fec5b80056b9c11436464953b1691bf2b5dcf0081fb6685d2c5f47abb8b2b1c49f504aabea5321fdd6496f8b755d9f6e7525a493406abb
+    husky: bin.js
+  checksum: 8/42fc1b869a1f5778ba5088706e7280b28a725cc29abad42f8411c54e542890e5936020a8ba886996bde3e7c5573a5cbfd440a51817d0da7db14ce81e102267ed
   languageName: node
   linkType: hard
 
@@ -5486,16 +5486,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: f345cd37f56a2c0275e3fe062517c650bb673815d885e7507566df589375d165bbbf4bdb6aa95600a9bc55f4744b81f452b5a63f95b9f10a72787dba3c90890a
+  checksum: 8/5479b7d431cacd5185f8db64bfcb7286ae5e31eb299f4c4f404ad8aa6098b77599563ac4257cb2c37a42f59dfc06a1bec2bcf283bb448f319e37f0feb9a09847
   languageName: node
   linkType: hard
 
@@ -6457,13 +6457,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@5.3.3#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c93786fcc9a70718ba1e3819bab56064ead5817004d1b8186f8ca66165f3a2d0100fee91fa64c840dcd45f994ca5d615d8e1f566d39a7470fc1e014dbb4cf15d
+  checksum: 8/4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
